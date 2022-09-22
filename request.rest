@@ -1,0 +1,9 @@
+POST http://localhost:5000/
+content-type:application/json
+
+{
+    "name": "Take the trash out form the kitchen",
+    "completed": false
+}
+##############
+GET http://localhost:5000/
